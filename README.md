@@ -70,16 +70,6 @@ npx expo start
 
 Escaneie o QR code com o Expo Go para abrir o app em um celular. Também é possível abrir a versão web pressionando `w` no terminal do Expo. O comando de instalação ignora scripts automáticos das dependências, compatível com a política npm desta máquina. O Expo SDK usado nesta versão permite a demonstração com Expo Go.
 
-## Roteiro sugerido para o vídeo (até 3 minutos)
-
-1. **0:00–0:20 — Contexto:** apresente o Nuclear Sentinel como protótipo acadêmico em cenário fictício.
-2. **0:20–0:40 — Login:** entre com a conta de operador e a senha de demonstração.
-3. **0:40–1:10 — Listagem:** mostre catálogo inicial, resumo, busca e filtros por alerta.
-4. **1:10–1:45 — Validação:** abra o cadastro e tente salvar sem preencher os campos; mostre as mensagens.
-5. **1:45–2:20 — Novo registro:** preencha uma ocorrência fictícia, escolha uma severidade e mostre o alerta derivado.
-6. **2:20–2:45 — Detalhes e persistência:** abra o registro salvo, retorne à lista e mostre que ele continua disponível.
-7. **2:45–3:00 — Encerramento:** reforce que os dados são locais e simulados.
-
 ## Escopo e limitações
 
 O login é simulado, sem serviço de autenticação remoto. O AsyncStorage é um armazenamento local não criptografado, adequado somente para esta demonstração. O app não envia dados para servidores e não representa um produto operacional.
